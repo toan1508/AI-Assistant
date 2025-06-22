@@ -26,7 +26,7 @@ function appendMessage(role, text) {
 
 async function callGemini(prompt) {
   try {
-    const res = await fetch("https://ai-assistant.onrender.com/ask", {
+    const res = await fetch("https://ai-assistant-i736.onrender.com//ask", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
